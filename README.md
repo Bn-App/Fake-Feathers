@@ -1,9 +1,8 @@
-# Trumpf Quartett
+# Fake Feathers
 
-Spiele Trumpf-Quartett gegen den Computer — mit zwei Decks:
+Spiele das Tauben-Quartett gegen den Computer:
 
 - **Tauben-Quartett** (64 Karten, Serie A & B) — Kategorien: Eleganz, Stärke, Schnelligkeit, Intelligenz, Mut, Humor
-- **Harry Potter Quartett** (88 Karten) — Kategorien: Zauberkraft, Mut, Weisheit, Loyalität, Geschick, Glück
 
 ## Spielregeln
 
@@ -24,7 +23,7 @@ Einfach `index.html` im Browser öffnen (Doppelklick). Der Modus „Gegen einen 
 
 ## Auf GitHub Pages veröffentlichen
 
-1. Neues Repository auf GitHub anlegen (z. B. `trumpf-quartett`).
+1. Neues Repository auf GitHub anlegen (z. B. `fake-feathers`).
 2. Alle Dateien dieses Ordners hochladen / pushen.
 3. Im Repository: **Settings → Pages → Source: Deploy from a branch**, Branch `main`, Ordner `/ (root)` wählen.
-4. Nach kurzer Zeit ist das Spiel unter `https://<benutzername>.github.io/trumpf-quartett/` erreichbar.
+4. Nach kurzer Zeit ist das Spiel unter `https://<benutzername>.github.io/fake-feathers/` erreichbar.
