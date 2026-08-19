@@ -116,5 +116,43 @@
 <script src="js/vendor/qrcode.js"></script>
 <script src="data/tauben.js"></script>
 <script src="js/game.js"></script>
+
+<script>
+(function renderStartPreview() {
+  var q = window.QUARTETTS && window.QUARTETTS['tauben'];
+  var preview = document.getElementById('start-card-preview');
+  if (!q || !preview) return;
+
+  function renderPreview() {
+    var card = q.cards[Math.floor(Math.random() * q.cards.length)];
+    var light = card.palette[0], mid = card.palette[1], accent = card.palette[2];
+    var total = card.values.reduce(function(a,b){return a+b;},0);
+    var barColor = 'linear-gradient(90deg,'+mid+','+accent+')';
+    function esc(s){return String(s).replace(/[&<>"]/g,function(c){return({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]);});}
+    var rows = q.categories.map(function(cat,i){
+      var v=card.values[i], pct=Math.round((v/cat.max)*100);
+      return '<div class="stat-row"><span class="stat-emoji">'+cat.emoji+'</span><span class="stat-label">'+esc(cat.label)+'</span><div class="stat-bar-wrap"><div class="stat-bar" style="width:'+pct+'%;background:'+barColor+'"></div></div><span class="stat-num">'+v+'</span></div>';
+    }).join('');
+    preview.innerHTML = '<div class="tcard" style="border:3px solid '+accent+';max-width:300px;margin:0 auto">'
+      +'<div class="tc-head" style="background:linear-gradient(90deg,#0f2657,#24457e)"><span class="tc-head-brand">Tauben-Quartett</span></div>'
+      +'<div class="tc-art" style="background:linear-gradient(160deg,'+light+' 0%,'+mid+' 100%)"><div class="bub1"></div><div class="bub2"></div><img src="'+card.img+'" alt="'+esc(card.name)+'"></div>'
+      +'<div class="tc-name" style="background:linear-gradient(90deg,'+accent+','+mid+')"><span class="star">✦</span><span class="nm">'+esc(card.name)+'</span><span class="star">✦</span></div>'
+      +'<div class="tc-stats">'+rows+'</div>'
+      +'<div class="tc-foot" style="background:'+light+';border-top:1px solid '+mid+';color:'+accent+'"><span class="lbl">Gesamt</span><span class="tot">'+total+'</span></div>'
+      +'</div>';
+    // Animate stat bars
+    var bars = preview.querySelectorAll('.stat-bar');
+    var widths = Array.from(bars).map(function(b){return b.style.width;});
+    bars.forEach(function(b){b.style.transition='none';b.style.width='0%';});
+    void preview.offsetWidth;
+    bars.forEach(function(b,i){b.style.transition='width .42s cubic-bezier(0.4,0,0.2,1) '+(i*50)+'ms';b.style.width=widths[i];});
+  }
+
+  renderPreview();
+
+  // Expose for game.js to call when returning to start screen
+  window._renderStartPreview = renderPreview;
+})();
+</script>
 </body>
 </html>
