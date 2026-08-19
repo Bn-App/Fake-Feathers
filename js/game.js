@@ -32,7 +32,7 @@ function esc(s) {
   const state = {
     mode: 'cpu',          // 'cpu' | 'host' | 'guest'
     quartett: null,
-    selectedDeck: null,
+    selectedDeck: 'tauben',
     selectedSize: '32',
     // Engine (cpu + host): eigene Sicht
     myDeck: [],
@@ -670,22 +670,7 @@ function esc(s) {
   }
 
   // ---------- UI wiring ----------
-  function updateStartButtons() {
-    const ok = !!state.selectedDeck;
-    $('#btn-start').disabled = !ok;
-    $('#btn-host').disabled = !ok;
-  }
-
-  document.querySelectorAll('.deck-option').forEach((btn) => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('.deck-option').forEach((b) => b.classList.remove('selected'));
-      btn.classList.add('selected');
-      state.selectedDeck = btn.dataset.deck;
-      updateStartButtons();
-    });
-  });
-
-  document.querySelectorAll('.size-btn').forEach((btn) => {
+      document.querySelectorAll('.size-btn').forEach((btn) => {
     btn.addEventListener('click', () => {
       document.querySelectorAll('.size-btn').forEach((b) => b.classList.remove('active'));
       btn.classList.add('active');
