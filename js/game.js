@@ -2,6 +2,8 @@
 (function () {
   'use strict';
 
+let _keepMsg; // wird in distribute() gesetzt und in resolveRoundCpu() gelesen
+
   // ---------- Helpers ----------
   const $ = (sel) => document.querySelector(sel);
 
@@ -14,7 +16,13 @@
     return a;
   }
 
-  function esc(s) {
+  function useOnce(uses, key) {
+  if (uses[key]) return false;
+  uses[key] = true;
+  return true;
+}
+
+function esc(s) {
     return String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
   }
 
