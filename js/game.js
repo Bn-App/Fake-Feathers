@@ -59,9 +59,21 @@ function esc(s) {
   function showScreen(id) {
     document.querySelectorAll('.screen').forEach((s) => s.classList.remove('active'));
     $(id).classList.add('active');
+if (id === '#screen-start') showStartPreview();
   }
 
-  // ---------- Card rendering ----------
+  // ---------- Start screen preview ----------
+function showStartPreview() {
+  const q = window.QUARTETTS && window.QUARTETTS['tauben'];
+  const preview = document.getElementById('start-card-preview');
+  if (!q || !preview) return;
+  const card = q.cards[Math.floor(Math.random() * q.cards.length)];
+  const barColor = 'linear-gradient(90deg,' + card.palette[1] + ',' + card.palette[2] + ')';
+  preview.innerHTML = renderTaubenCard(q, card, { barColor });
+  animateStatBars(preview);
+}
+
+// ---------- Card rendering ----------
   function statRows(q, card, opts) {
     const indices = opts.cats ? opts.cats : q.categories.map((_, i) => i);
     return indices.map(i => {
@@ -745,7 +757,10 @@ function esc(s) {
     showScreen('#screen-start');
   });
 
-  // ---------- Einstieg über Einladungslink ----------
+  // ---------- Startbildschirm-Vorschau ----------
+showStartPreview();
+
+// ---------- Einstieg über Einladungslink ----------
   const joinId = new URLSearchParams(location.search).get('join');
   if (joinId) startJoining(joinId);
 })();
