@@ -59,7 +59,7 @@ function esc(s) {
   function showScreen(id) {
     document.querySelectorAll('.screen').forEach((s) => s.classList.remove('active'));
     $(id).classList.add('active');
-if (id === '#screen-start') showStartPreview();
+if (id === '#screen-start' && window._renderStartPreview) window._renderStartPreview();
   }
 
   // ---------- Start screen preview ----------
@@ -757,8 +757,7 @@ function showStartPreview() {
     showScreen('#screen-start');
   });
 
-  // ---------- Startbildschirm-Vorschau ----------
-showStartPreview();
+  // Kartenvorschau wird vom inline-Script in index.html gerendert (window._renderStartPreview)
 
 // ---------- Einstieg über Einladungslink ----------
   const joinId = new URLSearchParams(location.search).get('join');
