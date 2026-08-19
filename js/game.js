@@ -59,6 +59,7 @@ function esc(s) {
   function showScreen(id) {
     document.querySelectorAll('.screen').forEach((s) => s.classList.remove('active'));
     $(id).classList.add('active');
+window.scrollTo(0, 0);
 if (id === '#screen-start' && window._renderStartPreview) window._renderStartPreview();
   }
 
