@@ -2,7 +2,7 @@
 
 Spiele das Tauben-Quartett gegen den Computer:
 
-- **Tauben-Quartett** (64 Karten, Serie A & B) — Kategorien: Eleganz, Stärke, Schnelligkeit, Intelligenz, Mut, Humor
+- **Tauben-Quartett** (55 Karten) — Kategorien: Eleganz, Stärke, Intelligenz, Mut, Humor
 
 ## Spielregeln
 

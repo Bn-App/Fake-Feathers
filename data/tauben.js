@@ -36,452 +36,939 @@ window.QUARTETTS.tauben = {
  ],
  "cards": [
   {
-   "id": "A01",
+   "id": "01",
    "name": "Spürnase",
-   "values": [58, 44, 88, 65, 72],
-   "img": "img/birds/bird_a_01.png",
-   "palette": ["#f3ead7", "#dbc296", "#8a6d3b"]
+   "values": [
+    61,
+    52,
+    79,
+    65,
+    69
+   ],
+   "img": "img/birds/bird_01.png",
+   "palette": [
+    "#f3ead7",
+    "#dbc296",
+    "#8a6d3b"
+   ]
   },
   {
-   "id": "A02",
+   "id": "02",
    "name": "Urlauber",
-   "values": [42, 83, 55, 52, 88],
-   "img": "img/birds/bird_a_02.png",
-   "palette": ["#d9f3ef", "#93d8cf", "#178f83"]
+   "values": [
+    51,
+    76,
+    59,
+    57,
+    79
+   ],
+   "img": "img/birds/bird_02.png",
+   "palette": [
+    "#d9f3ef",
+    "#93d8cf",
+    "#178f83"
+   ]
   },
   {
-   "id": "A03",
+   "id": "03",
    "name": "Zauberer",
-   "values": [68, 55, 90, 62, 68],
-   "img": "img/birds/bird_a_03.png",
-   "palette": ["#e7e2f8", "#b5a8e8", "#5b4bb5"]
+   "values": [
+    67,
+    59,
+    81,
+    63,
+    67
+   ],
+   "img": "img/birds/bird_03.png",
+   "palette": [
+    "#e7e2f8",
+    "#b5a8e8",
+    "#5b4bb5"
+   ]
   },
   {
-   "id": "A04",
+   "id": "04",
    "name": "Rockstar",
-   "values": [52, 65, 58, 80, 72],
-   "img": "img/birds/bird_a_04.png",
-   "palette": ["#fbe1e1", "#f0a4a4", "#c0392b"]
+   "values": [
+    57,
+    65,
+    61,
+    74,
+    69
+   ],
+   "img": "img/birds/bird_04.png",
+   "palette": [
+    "#fbe1e1",
+    "#f0a4a4",
+    "#c0392b"
+   ]
   },
   {
-   "id": "A05",
-   "name": "Astronaut",
-   "values": [68, 60, 82, 76, 50],
-   "img": "img/birds/bird_a_05.png",
-   "palette": ["#e5ebf4", "#a9bdd9", "#4a6fa5"]
-  },
-  {
-   "id": "A06",
+   "id": "05",
    "name": "Ninja",
-   "values": [56, 82, 65, 82, 38],
-   "img": "img/birds/bird_a_06.png",
-   "palette": ["#e6e6ea", "#a8a8b4", "#3a3a44"]
+   "values": [
+    59,
+    76,
+    65,
+    76,
+    48
+   ],
+   "img": "img/birds/bird_05.png",
+   "palette": [
+    "#e6e6ea",
+    "#a8a8b4",
+    "#3a3a44"
+   ]
   },
   {
-   "id": "A07",
+   "id": "06",
    "name": "Käpt'n Kralle",
-   "values": [65, 76, 60, 82, 68],
-   "img": "img/birds/bird_a_07.png",
-   "palette": ["#fae1db", "#eba692", "#b03a2e"]
+   "values": [
+    65,
+    72,
+    62,
+    76,
+    67
+   ],
+   "img": "img/birds/bird_06.png",
+   "palette": [
+    "#fae1db",
+    "#eba692",
+    "#b03a2e"
+   ]
   },
   {
-   "id": "A08",
+   "id": "07",
    "name": "Ritter",
-   "values": [67, 85, 58, 82, 48],
-   "img": "img/birds/bird_a_08.png",
-   "palette": ["#e7ebf0", "#aab8c6", "#5d6d7e"]
+   "values": [
+    66,
+    77,
+    61,
+    76,
+    54
+   ],
+   "img": "img/birds/bird_07.png",
+   "palette": [
+    "#e7ebf0",
+    "#aab8c6",
+    "#5d6d7e"
+   ]
   },
   {
-   "id": "A09",
-   "name": "Koch",
-   "values": [62, 54, 70, 61, 80],
-   "img": "img/birds/bird_a_09.png",
-   "palette": ["#f8f1e1", "#e3c98e", "#b9770e"]
-  },
-  {
-   "id": "A10",
+   "id": "08",
    "name": "Bauer",
-   "values": [66, 72, 56, 60, 78],
-   "img": "img/birds/bird_a_10.png",
-   "palette": ["#e4f1da", "#a9d18e", "#4a7c2f"]
+   "values": [
+    66,
+    69,
+    59,
+    62,
+    73
+   ],
+   "img": "img/birds/bird_08.png",
+   "palette": [
+    "#e4f1da",
+    "#a9d18e",
+    "#4a7c2f"
+   ]
   },
   {
-   "id": "A11",
+   "id": "09",
    "name": "Wissenschaftler",
-   "values": [54, 69, 90, 52, 72],
-   "img": "img/birds/bird_a_11.png",
-   "palette": ["#def3e5", "#8fd7a9", "#1e8449"]
+   "values": [
+    58,
+    67,
+    81,
+    57,
+    69
+   ],
+   "img": "img/birds/bird_09.png",
+   "palette": [
+    "#def3e5",
+    "#8fd7a9",
+    "#1e8449"
+   ]
   },
   {
-   "id": "A12",
+   "id": "10",
    "name": "Geheimagent",
-   "values": [62, 65, 80, 72, 54],
-   "img": "img/birds/bird_a_12.png",
-   "palette": ["#e7e8ec", "#9aa7b8", "#2c3e50"]
+   "values": [
+    63,
+    65,
+    74,
+    69,
+    58
+   ],
+   "img": "img/birds/bird_10.png",
+   "palette": [
+    "#e7e8ec",
+    "#9aa7b8",
+    "#2c3e50"
+   ]
   },
   {
-   "id": "A13",
+   "id": "11",
    "name": "Steampunk",
-   "values": [77, 62, 82, 65, 68],
-   "img": "img/birds/bird_a_13.png",
-   "palette": ["#f1e5d5", "#d0ab74", "#7d5a2f"]
+   "values": [
+    72,
+    63,
+    76,
+    65,
+    67
+   ],
+   "img": "img/birds/bird_11.png",
+   "palette": [
+    "#f1e5d5",
+    "#d0ab74",
+    "#7d5a2f"
+   ]
   },
   {
-   "id": "A14",
+   "id": "12",
    "name": "Samurai",
-   "values": [70, 87, 64, 83, 38],
-   "img": "img/birds/bird_a_14.png",
-   "palette": ["#f9e1dd", "#e79b90", "#a93226"]
+   "values": [
+    68,
+    79,
+    64,
+    76,
+    48
+   ],
+   "img": "img/birds/bird_12.png",
+   "palette": [
+    "#f9e1dd",
+    "#e79b90",
+    "#a93226"
+   ]
   },
   {
-   "id": "A15",
+   "id": "13",
    "name": "Boxer",
-   "values": [42, 88, 52, 80, 60],
-   "img": "img/birds/bird_a_15.png",
-   "palette": ["#fbe4de", "#f0a595", "#c0392b"]
+   "values": [
+    51,
+    79,
+    57,
+    74,
+    62
+   ],
+   "img": "img/birds/bird_13.png",
+   "palette": [
+    "#fbe4de",
+    "#f0a595",
+    "#c0392b"
+   ]
   },
   {
-   "id": "A16",
-   "name": "Maler",
-   "values": [65, 62, 82, 48, 78],
-   "img": "img/birds/bird_a_16.png",
-   "palette": ["#f1e4f4", "#ce9fdb", "#8e44ad"]
-  },
-  {
-   "id": "A17",
-   "name": "Musketier",
-   "values": [64, 75, 63, 78, 58],
-   "img": "img/birds/bird_a_17.png",
-   "palette": ["#dfe8f6", "#96b0e0", "#2e4f9e"]
-  },
-  {
-   "id": "A18",
+   "id": "14",
    "name": "Taucher",
-   "values": [56, 66, 72, 72, 65],
-   "img": "img/birds/bird_a_18.png",
-   "palette": ["#daeef8", "#84c3dd", "#21708f"]
+   "values": [
+    59,
+    66,
+    69,
+    69,
+    65
+   ],
+   "img": "img/birds/bird_14.png",
+   "palette": [
+    "#daeef8",
+    "#84c3dd",
+    "#21708f"
+   ]
   },
   {
-   "id": "A19",
+   "id": "15",
    "name": "Superheld",
-   "values": [62, 78, 65, 58, 65],
-   "img": "img/birds/bird_a_19.png",
-   "palette": ["#dff3de", "#8fd58c", "#229954"]
+   "values": [
+    63,
+    73,
+    65,
+    61,
+    65
+   ],
+   "img": "img/birds/bird_15.png",
+   "palette": [
+    "#dff3de",
+    "#8fd58c",
+    "#229954"
+   ]
   },
   {
-   "id": "A20",
+   "id": "16",
    "name": "Wikinger",
-   "values": [33, 88, 48, 85, 65],
-   "img": "img/birds/bird_a_20.png",
-   "palette": ["#eee4d6", "#cba86f", "#6e4b23"]
+   "values": [
+    45,
+    79,
+    54,
+    77,
+    65
+   ],
+   "img": "img/birds/bird_16.png",
+   "palette": [
+    "#eee4d6",
+    "#cba86f",
+    "#6e4b23"
+   ]
   },
   {
-   "id": "A21",
+   "id": "17",
    "name": "Cowboy",
-   "values": [57, 70, 60, 76, 74],
-   "img": "img/birds/bird_a_21.png",
-   "palette": ["#f5e9d6", "#dcb96f", "#9c6615"]
+   "values": [
+    60,
+    68,
+    62,
+    72,
+    71
+   ],
+   "img": "img/birds/bird_17.png",
+   "palette": [
+    "#f5e9d6",
+    "#dcb96f",
+    "#9c6615"
+   ]
   },
   {
-   "id": "A22",
+   "id": "18",
    "name": "Feuerwehrmann",
-   "values": [57, 76, 66, 77, 50],
-   "img": "img/birds/bird_a_22.png",
-   "palette": ["#fdf1d7", "#f0cd6f", "#c78905"]
+   "values": [
+    60,
+    72,
+    66,
+    72,
+    56
+   ],
+   "img": "img/birds/bird_18.png",
+   "palette": [
+    "#fdf1d7",
+    "#f0cd6f",
+    "#c78905"
+   ]
   },
   {
-   "id": "A23",
+   "id": "19",
    "name": "Eiskunstläufer",
-   "values": [82, 55, 60, 53, 68],
-   "img": "img/birds/bird_a_23.png",
-   "palette": ["#def0fb", "#8ec4e8", "#2874a6"]
+   "values": [
+    76,
+    59,
+    62,
+    58,
+    67
+   ],
+   "img": "img/birds/bird_19.png",
+   "palette": [
+    "#def0fb",
+    "#8ec4e8",
+    "#2874a6"
+   ]
   },
   {
-   "id": "A24",
-   "name": "Schiedsrichter",
-   "values": [52, 48, 75, 57, 80],
-   "img": "img/birds/bird_a_24.png",
-   "palette": ["#eaeaea", "#ababab", "#4a4a4a"]
-  },
-  {
-   "id": "A25",
+   "id": "20",
    "name": "Joker",
-   "values": [60, 44, 63, 50, 90],
-   "img": "img/birds/bird_a_25.png",
-   "palette": ["#eee1f5", "#c79ade", "#7d3c98"]
+   "values": [
+    62,
+    52,
+    64,
+    56,
+    81
+   ],
+   "img": "img/birds/bird_20.png",
+   "palette": [
+    "#eee1f5",
+    "#c79ade",
+    "#7d3c98"
+   ]
   },
   {
-   "id": "A26",
+   "id": "21",
    "name": "König",
-   "values": [90, 58, 76, 67, 55],
-   "img": "img/birds/bird_a_26.png",
-   "palette": ["#faeed4", "#e6c86a", "#b7950b"]
+   "values": [
+    81,
+    61,
+    72,
+    66,
+    59
+   ],
+   "img": "img/birds/bird_21.png",
+   "palette": [
+    "#faeed4",
+    "#e6c86a",
+    "#b7950b"
+   ]
   },
   {
-   "id": "A27",
+   "id": "22",
    "name": "Pharao",
-   "values": [88, 62, 80, 64, 52],
-   "img": "img/birds/bird_a_27.png",
-   "palette": ["#f8edd2", "#e2c265", "#a07d1c"]
+   "values": [
+    79,
+    63,
+    74,
+    64,
+    57
+   ],
+   "img": "img/birds/bird_22.png",
+   "palette": [
+    "#f8edd2",
+    "#e2c265",
+    "#a07d1c"
+   ]
   },
   {
-   "id": "A28",
+   "id": "23",
    "name": "Entdecker",
-   "values": [52, 67, 78, 80, 62],
-   "img": "img/birds/bird_a_28.png",
-   "palette": ["#f0ecdd", "#c3b98a", "#7a7040"]
+   "values": [
+    57,
+    66,
+    73,
+    74,
+    63
+   ],
+   "img": "img/birds/bird_23.png",
+   "palette": [
+    "#f0ecdd",
+    "#c3b98a",
+    "#7a7040"
+   ]
   },
   {
-   "id": "A29",
+   "id": "24",
    "name": "Bademeister",
-   "values": [43, 62, 57, 67, 80],
-   "img": "img/birds/bird_a_29.png",
-   "palette": ["#fde7de", "#f3a582", "#d35400"]
+   "values": [
+    51,
+    63,
+    60,
+    66,
+    74
+   ],
+   "img": "img/birds/bird_24.png",
+   "palette": [
+    "#fde7de",
+    "#f3a582",
+    "#d35400"
+   ]
   },
   {
-   "id": "A30",
+   "id": "25",
    "name": "DJ",
-   "values": [63, 43, 65, 56, 88],
-   "img": "img/birds/bird_a_30.png",
-   "palette": ["#e6e7f1", "#a3a7d6", "#4a4e8f"]
+   "values": [
+    64,
+    51,
+    65,
+    59,
+    79
+   ],
+   "img": "img/birds/bird_25.png",
+   "palette": [
+    "#e6e7f1",
+    "#a3a7d6",
+    "#4a4e8f"
+   ]
   },
   {
-   "id": "A31",
+   "id": "26",
    "name": "Bäcker",
-   "values": [48, 54, 64, 82, 82],
-   "img": "img/birds/bird_a_31.png",
-   "palette": ["#f8efdf", "#e0bc7a", "#a5731f"]
+   "values": [
+    54,
+    58,
+    64,
+    76,
+    76
+   ],
+   "img": "img/birds/bird_26.png",
+   "palette": [
+    "#f8efdf",
+    "#e0bc7a",
+    "#a5731f"
+   ]
   },
   {
-   "id": "A32",
-   "name": "Weihnachtsmann",
-   "values": [68, 56, 57, 62, 88],
-   "img": "img/birds/bird_a_32.png",
-   "palette": ["#fbe2df", "#f0a29a", "#b03a2e"]
-  },
-  {
-   "id": "B01",
+   "id": "27",
    "name": "Ursprungstaube",
-   "values": [60, 48, 88, 67, 65],
-   "img": "img/birds/bird_b_01.png",
-   "palette": ["#eeebe4", "#c2b8a4", "#6b6355"]
+   "values": [
+    62,
+    54,
+    79,
+    66,
+    65
+   ],
+   "img": "img/birds/bird_27.png",
+   "palette": [
+    "#eeebe4",
+    "#c2b8a4",
+    "#6b6355"
+   ]
   },
   {
-   "id": "B02",
+   "id": "28",
    "name": "Cappy",
-   "values": [52, 63, 70, 67, 80],
-   "img": "img/birds/bird_b_02.png",
-   "palette": ["#fbe3df", "#f0a69c", "#c0392b"]
+   "values": [
+    57,
+    64,
+    68,
+    66,
+    74
+   ],
+   "img": "img/birds/bird_28.png",
+   "palette": [
+    "#fbe3df",
+    "#f0a69c",
+    "#c0392b"
+   ]
   },
   {
-   "id": "B03",
+   "id": "29",
    "name": "Sir Taubington",
-   "values": [90, 43, 83, 67, 57],
-   "img": "img/birds/bird_b_03.png",
-   "palette": ["#e9e5ee", "#aa9fc2", "#41355c"]
+   "values": [
+    81,
+    51,
+    76,
+    66,
+    60
+   ],
+   "img": "img/birds/bird_29.png",
+   "palette": [
+    "#e9e5ee",
+    "#aa9fc2",
+    "#41355c"
+   ]
   },
   {
-   "id": "B04",
+   "id": "30",
    "name": "Königin",
-   "values": [90, 52, 78, 64, 57],
-   "img": "img/birds/bird_b_04.png",
-   "palette": ["#faeed4", "#e6c86a", "#b7950b"]
+   "values": [
+    81,
+    57,
+    73,
+    64,
+    60
+   ],
+   "img": "img/birds/bird_30.png",
+   "palette": [
+    "#faeed4",
+    "#e6c86a",
+    "#b7950b"
+   ]
   },
   {
-   "id": "B05",
+   "id": "31",
    "name": "Pirat",
-   "values": [55, 78, 60, 85, 68],
-   "img": "img/birds/bird_b_05.png",
-   "palette": ["#fae1db", "#eba692", "#b03a2e"]
+   "values": [
+    59,
+    73,
+    62,
+    77,
+    67
+   ],
+   "img": "img/birds/bird_31.png",
+   "palette": [
+    "#fae1db",
+    "#eba692",
+    "#b03a2e"
+   ]
   },
   {
-   "id": "B06",
-   "name": "Ninja-Dame",
-   "values": [53, 82, 65, 82, 38],
-   "img": "img/birds/bird_b_06.png",
-   "palette": ["#e6e6ea", "#a8a8b4", "#3a3a44"]
-  },
-  {
-   "id": "B07",
+   "id": "32",
    "name": "Ire",
-   "values": [65, 60, 65, 67, 84],
-   "img": "img/birds/bird_b_07.png",
-   "palette": ["#dff2de", "#8fd48f", "#1e8449"]
+   "values": [
+    65,
+    62,
+    65,
+    66,
+    77
+   ],
+   "img": "img/birds/bird_32.png",
+   "palette": [
+    "#dff2de",
+    "#8fd48f",
+    "#1e8449"
+   ]
   },
   {
-   "id": "B08",
+   "id": "33",
    "name": "Ballerina",
-   "values": [82, 50, 62, 47, 77],
-   "img": "img/birds/bird_b_08.png",
-   "palette": ["#fde6f1", "#f2a8cd", "#c2559b"]
+   "values": [
+    76,
+    56,
+    63,
+    54,
+    72
+   ],
+   "img": "img/birds/bird_33.png",
+   "palette": [
+    "#fde6f1",
+    "#f2a8cd",
+    "#c2559b"
+   ]
   },
   {
-   "id": "B09",
+   "id": "34",
    "name": "Astronautin",
-   "values": [68, 60, 83, 76, 50],
-   "img": "img/birds/bird_b_09.png",
-   "palette": ["#e5ebf4", "#a9bdd9", "#4a6fa5"]
+   "values": [
+    67,
+    62,
+    76,
+    72,
+    56
+   ],
+   "img": "img/birds/bird_34.png",
+   "palette": [
+    "#e5ebf4",
+    "#a9bdd9",
+    "#4a6fa5"
+   ]
   },
   {
-   "id": "B10",
+   "id": "35",
    "name": "Feuerwehr-Chef",
-   "values": [56, 80, 68, 71, 53],
-   "img": "img/birds/bird_b_10.png",
-   "palette": ["#fdf1d7", "#f0cd6f", "#c78905"]
+   "values": [
+    59,
+    74,
+    67,
+    69,
+    58
+   ],
+   "img": "img/birds/bird_35.png",
+   "palette": [
+    "#fdf1d7",
+    "#f0cd6f",
+    "#c78905"
+   ]
   },
   {
-   "id": "B11",
+   "id": "36",
    "name": "Cowgirl",
-   "values": [53, 67, 61, 78, 77],
-   "img": "img/birds/bird_b_11.png",
-   "palette": ["#f5e9d6", "#dcb96f", "#9c6615"]
+   "values": [
+    58,
+    66,
+    63,
+    73,
+    72
+   ],
+   "img": "img/birds/bird_36.png",
+   "palette": [
+    "#f5e9d6",
+    "#dcb96f",
+    "#9c6615"
+   ]
   },
   {
-   "id": "B12",
+   "id": "37",
    "name": "Köchin",
-   "values": [58, 52, 70, 69, 80],
-   "img": "img/birds/bird_b_12.png",
-   "palette": ["#f8f1e1", "#e3c98e", "#b9770e"]
+   "values": [
+    61,
+    57,
+    68,
+    67,
+    74
+   ],
+   "img": "img/birds/bird_37.png",
+   "palette": [
+    "#f8f1e1",
+    "#e3c98e",
+    "#b9770e"
+   ]
   },
   {
-   "id": "B13",
+   "id": "38",
    "name": "Hawaiianer",
-   "values": [86, 42, 54, 50, 88],
-   "img": "img/birds/bird_b_13.png",
-   "palette": ["#fdecdc", "#f4b27e", "#d35400"]
+   "values": [
+    78,
+    51,
+    58,
+    56,
+    79
+   ],
+   "img": "img/birds/bird_38.png",
+   "palette": [
+    "#fdecdc",
+    "#f4b27e",
+    "#d35400"
+   ]
   },
   {
-   "id": "B14",
+   "id": "39",
    "name": "Doktor",
-   "values": [70, 42, 90, 56, 65],
-   "img": "img/birds/bird_b_14.png",
-   "palette": ["#e0f1eb", "#8ed4bc", "#148f77"]
+   "values": [
+    68,
+    51,
+    81,
+    59,
+    65
+   ],
+   "img": "img/birds/bird_39.png",
+   "palette": [
+    "#e0f1eb",
+    "#8ed4bc",
+    "#148f77"
+   ]
   },
   {
-   "id": "B15",
+   "id": "40",
    "name": "Biene",
-   "values": [50, 46, 65, 57, 87],
-   "img": "img/birds/bird_b_15.png",
-   "palette": ["#fdf4d0", "#f2d868", "#b7950b"]
+   "values": [
+    56,
+    53,
+    65,
+    60,
+    79
+   ],
+   "img": "img/birds/bird_40.png",
+   "palette": [
+    "#fdf4d0",
+    "#f2d868",
+    "#b7950b"
+   ]
   },
   {
-   "id": "B16",
+   "id": "41",
    "name": "Vampir",
-   "values": [68, 72, 69, 74, 65],
-   "img": "img/birds/bird_b_16.png",
-   "palette": ["#eae3ef", "#b394c9", "#4a235a"]
+   "values": [
+    67,
+    69,
+    67,
+    71,
+    65
+   ],
+   "img": "img/birds/bird_41.png",
+   "palette": [
+    "#eae3ef",
+    "#b394c9",
+    "#4a235a"
+   ]
   },
   {
-   "id": "B17",
+   "id": "42",
    "name": "Hexe",
-   "values": [67, 57, 86, 64, 70],
-   "img": "img/birds/bird_b_17.png",
-   "palette": ["#eee1f5", "#c79ade", "#7d3c98"]
+   "values": [
+    66,
+    60,
+    78,
+    64,
+    68
+   ],
+   "img": "img/birds/bird_42.png",
+   "palette": [
+    "#eee1f5",
+    "#c79ade",
+    "#7d3c98"
+   ]
   },
   {
-   "id": "B18",
+   "id": "43",
    "name": "Punk",
-   "values": [38, 75, 54, 80, 78],
-   "img": "img/birds/bird_b_18.png",
-   "palette": ["#eae6e6", "#aca2a2", "#514a4a"]
+   "values": [
+    48,
+    71,
+    58,
+    74,
+    73
+   ],
+   "img": "img/birds/bird_43.png",
+   "palette": [
+    "#eae6e6",
+    "#aca2a2",
+    "#514a4a"
+   ]
   },
   {
-   "id": "B19",
+   "id": "44",
    "name": "Weihnachtsmann",
-   "values": [66, 54, 56, 69, 88],
-   "img": "img/birds/bird_b_19.png",
-   "palette": ["#fbe2df", "#f0a29a", "#b03a2e"]
+   "values": [
+    66,
+    58,
+    59,
+    67,
+    79
+   ],
+   "img": "img/birds/bird_44.png",
+   "palette": [
+    "#fbe2df",
+    "#f0a29a",
+    "#b03a2e"
+   ]
   },
   {
-   "id": "B20",
+   "id": "45",
    "name": "Matrose",
-   "values": [62, 65, 62, 70, 70],
-   "img": "img/birds/bird_b_20.png",
-   "palette": ["#dfe9f6", "#92b4e2", "#1f4e8c"]
+   "values": [
+    63,
+    65,
+    63,
+    68,
+    68
+   ],
+   "img": "img/birds/bird_45.png",
+   "palette": [
+    "#dfe9f6",
+    "#92b4e2",
+    "#1f4e8c"
+   ]
   },
   {
-   "id": "B21",
+   "id": "46",
    "name": "Einbrecher",
-   "values": [43, 65, 70, 72, 75],
-   "img": "img/birds/bird_b_21.png",
-   "palette": ["#e8e8e8", "#a5a5a5", "#3d3d3d"]
+   "values": [
+    51,
+    65,
+    68,
+    69,
+    71
+   ],
+   "img": "img/birds/bird_46.png",
+   "palette": [
+    "#e8e8e8",
+    "#a5a5a5",
+    "#3d3d3d"
+   ]
   },
   {
-   "id": "B22",
+   "id": "47",
    "name": "Schiri",
-   "values": [50, 67, 72, 55, 78],
-   "img": "img/birds/bird_b_22.png",
-   "palette": ["#eaeaea", "#ababab", "#4a4a4a"]
+   "values": [
+    56,
+    66,
+    69,
+    59,
+    73
+   ],
+   "img": "img/birds/bird_47.png",
+   "palette": [
+    "#eaeaea",
+    "#ababab",
+    "#4a4a4a"
+   ]
   },
   {
-   "id": "B23",
+   "id": "48",
    "name": "Surfer",
-   "values": [41, 59, 56, 70, 82],
-   "img": "img/birds/bird_b_23.png",
-   "palette": ["#d9f3ef", "#93d8cf", "#178f83"]
+   "values": [
+    50,
+    61,
+    59,
+    68,
+    76
+   ],
+   "img": "img/birds/bird_48.png",
+   "palette": [
+    "#d9f3ef",
+    "#93d8cf",
+    "#178f83"
+   ]
   },
   {
-   "id": "B24",
-   "name": "Wikinger",
-   "values": [45, 86, 45, 88, 63],
-   "img": "img/birds/bird_b_24.png",
-   "palette": ["#eee4d6", "#cba86f", "#6e4b23"]
-  },
-  {
-   "id": "B25",
+   "id": "49",
    "name": "Bauarbeiter",
-   "values": [43, 75, 65, 69, 72],
-   "img": "img/birds/bird_b_25.png",
-   "palette": ["#fdecd6", "#f2b568", "#ca6f1e"]
+   "values": [
+    51,
+    71,
+    65,
+    67,
+    69
+   ],
+   "img": "img/birds/bird_49.png",
+   "palette": [
+    "#fdecd6",
+    "#f2b568",
+    "#ca6f1e"
+   ]
   },
   {
-   "id": "B26",
+   "id": "50",
    "name": "Musketier",
-   "values": [77, 74, 63, 67, 58],
-   "img": "img/birds/bird_b_26.png",
-   "palette": ["#dfe8f6", "#96b0e0", "#2e4f9e"]
+   "values": [
+    72,
+    71,
+    64,
+    66,
+    61
+   ],
+   "img": "img/birds/bird_50.png",
+   "palette": [
+    "#dfe8f6",
+    "#96b0e0",
+    "#2e4f9e"
+   ]
   },
   {
-   "id": "B27",
+   "id": "51",
    "name": "Kinogänger",
-   "values": [46, 87, 62, 45, 87],
-   "img": "img/birds/bird_b_27.png",
-   "palette": ["#fbe4de", "#ee9f92", "#a93226"]
+   "values": [
+    53,
+    79,
+    63,
+    53,
+    79
+   ],
+   "img": "img/birds/bird_51.png",
+   "palette": [
+    "#fbe4de",
+    "#ee9f92",
+    "#a93226"
+   ]
   },
   {
-   "id": "B28",
+   "id": "52",
    "name": "Dino",
-   "values": [32, 80, 46, 75, 85],
-   "img": "img/birds/bird_b_28.png",
-   "palette": ["#e2f2da", "#9cd484", "#3f8c2f"]
+   "values": [
+    45,
+    74,
+    53,
+    71,
+    77
+   ],
+   "img": "img/birds/bird_52.png",
+   "palette": [
+    "#e2f2da",
+    "#9cd484",
+    "#3f8c2f"
+   ]
   },
   {
-   "id": "B29",
-   "name": "Superheld",
-   "values": [63, 80, 66, 48, 68],
-   "img": "img/birds/bird_b_29.png",
-   "palette": ["#deeafb", "#8db6e8", "#2166ac"]
-  },
-  {
-   "id": "B30",
+   "id": "53",
    "name": "Künstler",
-   "values": [63, 72, 83, 42, 78],
-   "img": "img/birds/bird_b_30.png",
-   "palette": ["#f1e4f4", "#ce9fdb", "#8e44ad"]
+   "values": [
+    64,
+    69,
+    76,
+    51,
+    73
+   ],
+   "img": "img/birds/bird_53.png",
+   "palette": [
+    "#f1e4f4",
+    "#ce9fdb",
+    "#8e44ad"
+   ]
   },
   {
-   "id": "B31",
+   "id": "54",
    "name": "Smoking",
-   "values": [88, 46, 72, 57, 60],
-   "img": "img/birds/bird_b_31.png",
-   "palette": ["#e9e7ec", "#a49fb2", "#33313d"]
+   "values": [
+    79,
+    53,
+    69,
+    60,
+    62
+   ],
+   "img": "img/birds/bird_54.png",
+   "palette": [
+    "#e9e7ec",
+    "#a49fb2",
+    "#33313d"
+   ]
   },
   {
-   "id": "B32",
+   "id": "55",
    "name": "Partyvogel",
-   "values": [52, 72, 53, 50, 92],
-   "img": "img/birds/bird_b_32.png",
-   "palette": ["#fdeae0", "#f3b18b", "#c74b3a"]
+   "values": [
+    57,
+    69,
+    58,
+    56,
+    82
+   ],
+   "img": "img/birds/bird_55.png",
+   "palette": [
+    "#fdeae0",
+    "#f3b18b",
+    "#c74b3a"
+   ]
   }
  ]
 };
